@@ -1,0 +1,19 @@
+NR小区名：BDGB_XinFaDiXiNan3500MERR-share_12
+NR小区名：BDGB_XinFaDiXiNan3500MERR-share_3
+NR小区名：BDGB_XinFaDiXiNan3500MERR-share_1
+NR小区名：BDGB_XinFaDiXiNan3500MERR-share_32
+CM_GNB_12701_2_CZ_QX_chenzui2100M12ERR-share_20230316010021.txt
+LTE小区名：EUtranCellFDD=CZ_QX_CZXqianyuerzhuangcunbeiERF-1
+NR小区名：CZ_QX_CZXqianyuerzhuangcunbei2100MTTERR-1-share
+CM_GNB_12701_2_CZ_QX_nongcunnongchangguwangjifang1ERR-share_20230316010021.txt
+{'sectorEquipmentFunctionRef': '"SubNetwork=CUHeB_NR_CZ,MeContext=CZ_QX_nongcunnongchangguwangjifang1ERR-share,ManagedElement=CZ_QX_nongcunnongchangguwangjifang1ERR-share,NodeSupport=1,SectorEquipmentFunction=AAS-2"', 'bSChannelBwUL': '100', 'FDN': '"SubNetwork=CUHeB_NR_CZ,MeContext=CZ_QX_nongcunnongchangguwangjifang1ERR-share,ManagedElement=CZ_QX_nongcunnongchangguwangjifang1ERR-share,GNBDUFunction=1,NRSectorCarrier=2"', 'txDirection': 'DL_AND_UL', 'arfcnUL': '636664', 'frequencyDL': '3549960', 'frequencyUL': '3549960', 'nRSectorCarrierId': '"2"', 'arfcnDL': '636664', 'coverage': '<empty>', 'configuredMaxTxPower': '320000', 'reservedBy': '<empty>', 'bSChannelBwDL': '100'}
+Traceback (most recent call last):
+  File "ericssonNrCmParse.py", line 192, in <module>
+    deal_with_tar(tarName,sdate,csvList)
+  File "ericssonNrCmParse.py", line 184, in deal_with_tar
+    deal_with_file(tar.extractfile(i),sdate,csvList)
+  File "ericssonNrCmParse.py", line 136, in deal_with_file
+    NRCell=eval(fdn_['reservedBy'])[0].strip('"').split(',')[-1].split('=')[1]
+  File "<string>", line 1
+    <empty>
+    ^

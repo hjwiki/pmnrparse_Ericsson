@@ -1,0 +1,5 @@
+sdate,isalive,islock,vendor,gci,cellname,isp,nettype,gnodebid,cellid,tac,share,shareBandwidth,Bandwidth,nref,pci,arfcnDL,band
+2023-03-16 11:50:45,1,0,爱立信,2350123+258,CZ_QX_machangzhenyangguandiancundongbei-3-share,联通,SA,2350123,258,2350081,1,100,100,633984,5,633984,n78
+2023-03-16 11:50:45,1,0,爱立信,2350123+259,CZ_QX_machangzhenyangguandiancundongbei-2-share,联通,SA,2350123,259,2350081,1,100,100,633984,598,633984,n1
+2023-03-16 11:50:45,1,0,爱立信,2350123+256,CZ_QX_machangzhenyangguandiancun-1-share,联通,SA,2350123,256,2350081,1,100,100,633984,3,636664,n78
+2023-03-16 11:50:45,1,0,爱立信,2350123+257,CZ_QX_machangzhenyangguandiancundongbei-1-share,联通,SA,2350123,257,2350081,1,100,100,633984,467,636664,n1
